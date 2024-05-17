@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: #0055BC;
+}
+
+.carousel-container {
+  background-color: rgb(255, 134, 149);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 16px rgb(255, 134, 149);
+}
+
+.photo-container {
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 20px 10px 0 10px;
+  background-color: rgb(255, 134, 149);
+  background-image: linear-gradient(rgb(245, 124, 139), rgb(245, 124, 139));
+  box-shadow: 0 1px 5px rgb(177, 56, 71), inset 1px 1px 2px rgb(177, 56, 71);
+}
+
+#FF8695
